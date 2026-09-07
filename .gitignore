@@ -1,0 +1,69 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test/cache artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build/package artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Runtime output
+Downloaded/
+Transcripts/
+dy_downloader.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Local config/secrets
+.env
+.env.*
+!.env.example
+config*.yml
+!config.example.yml
+.cookies.json
+.gallery_*.json
+.gallery_douyin_browser/
+config/cookies.json
+
+# Platform browser profiles and local models
+data/
+*.onnx
+*.pt
+*.pth
+
+# Private UI is intentionally outside this repository
+frontend/
+renderer/
+node_modules/
+.omx/
+
+# Editor / IDE local settings
+.claude/
+.idea/
+.vscode/
+.omc/
+.gstack/

@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible backend defect without credentials or personal data.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Never include cookies, tokens, personal information, or unredacted platform responses."
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Provider
+      options:
+        - Douyin
+        - Weibo
+        - API / packaging
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Use redacted URLs and logs.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
