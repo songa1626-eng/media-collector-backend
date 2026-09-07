@@ -88,8 +88,8 @@
 - Create: `.github/workflows/ci.yml`
 - Create: `.github/ISSUE_TEMPLATE/bug_report.yml`
 
-- [ ] Run `ruff check .`.
-- [ ] Run `python -m pytest`.
-- [ ] Run `python -m build` and inspect wheel contents.
-- [ ] Scan tracked files for credentials, private paths, UI assets, databases, and model weights.
-- [ ] Initialize Git and create an English initial commit.
+- [x] Run `ruff check .`.
+- [x] Run `python -m pytest`.
+- [x] Run `python -m build` and inspect wheel contents.
+- [x] Scan tracked files for credentials, private paths, UI assets, databases, and model weights.
+- [x] Initialize Git and create an English initial commit.
