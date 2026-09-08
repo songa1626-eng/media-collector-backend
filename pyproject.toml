@@ -38,7 +38,7 @@ dependencies = [
 browser = ["playwright>=1.40.0"]
 person-filter = [
     "numpy>=1.24.0,<2.0.0",
-    "opencv-python-headless>=4.8.0,<4.11.0",
+    "opencv-python-headless>=4.8.0,<5.1.0",
     "onnxruntime>=1.16.0,<1.18.0",
 ]
 transcribe = ["openai-whisper>=20231117"]
